@@ -11,7 +11,7 @@ De proevenverzamelingentool stond voorheen op de helpdesk water.
 # Omvang
 De proevenverzamelingentool bestaat uit een verzameling bestanden. Naast deze toelichting bestaat de complete set uit de volgende bestanden:
 * Proevenverzamelingen_tool_v4.2k.xlsm
-* Beschrijving van deze proevenverzamelingentool, rapportage Arcadis
+* Beschrijving van deze proevenverzamelingentool
 * Het uitwisselformat-database-proevenverzameling_versie_4_2k.xlsx
 * Toelichting bij Uitwisselformat-database-proevenverzameling_versie_4_2k_201905.pdf
 
