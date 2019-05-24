@@ -4,9 +4,9 @@ De proevenverzamelingentool bestaat uit een tool in Excel om proevenverzamelinge
 
 Deze proevenverzamelingentool en uitwisselformat versie 4.2k is nu beschikbaar. De geotechnische laboratoria kennen deze database en kunnen deze database vullen met resultaten van grond- en laboratoriumonderzoek. Op deze wijze ontstaat er een eerste uniformering op het gebied van data-uitwisseling en –opslag van proefresultaten. 
 
-Met de gevulde proevenverzamelingentool is het mogelijk om proevenverzamelingen op te zetten en te analyseren. Op basis van een set proeven leidt het Excel sheet zowel gedraineerde als ongedraineerde schuifsterkte parameters af. Van deze parameters worden verwachtingswaarde, karakteristieke waarde en rekenwaarde bepaald.
+Met de gevulde proevenverzamelingentool is het mogelijk om proevenverzamelingen op te zetten en te analyseren. Op basis van een set proeven leidt het Excel sheet zowel gedraineerde als ongedraineerde schuifsterkte parameters af. Van deze parameters worden verwachtingswaarde, karakteristieke waarde en rekenwaarde bepaald. De bestanden worden "as is" beschikbaar gesteld. De verantwoordelijkheid voor het gebruik van deze tools ligt bij de gebruiker.
 
-De proevenverzamelingentool stond voorheen op de helpdesk water.
+De proevenverzamelingentool stond voorheen op de helpdesk water. 
 
 # Omvang
 De proevenverzamelingentool bestaat uit een verzameling bestanden. Naast deze toelichting bestaat de complete set uit de volgende bestanden:
