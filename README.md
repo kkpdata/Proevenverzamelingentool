@@ -13,14 +13,21 @@ De proevenverzamelingentool stond voorheen op de helpdesk water.
 
 De proevenverzamelingentool bestaat uit een verzameling bestanden. Naast deze toelichting bestaat de complete set uit de volgende bestanden:
 
-* Proevenverzamelingen_tool_v4.2k.xlsm
+* Proevenverzamelingen_tool_v4.2l.xlsm
 * Beschrijving van deze proevenverzamelingentool
-* Het uitwisselformat-database-proevenverzameling_versie_4_2k.xlsx
-* Toelichting bij Uitwisselformat-database-proevenverzameling_versie_4_2k_201905.pdf
+* Het uitwisselformat-database-proevenverzameling_versie_4_2l.xlsx
+* Toelichting bij Uitwisselformat-database-proevenverzameling_versie_4_2l_202105.pdf
 
 # Wijzigingen uitwisselformat ten opzichte van voorgaande versie
 
-De huidige versie 4.2 is inmiddels aangekomen bij subversie k. Ten opzichte van versie 4.2h zijn de volgende wijzigingen in versie 4.2k doorgevoerd:
+De huidige versie 4.2 is inmiddels aangekomen bij subversie l. 
+
+Ten opzichte van versie 4.2k zijn de volgende wijzigingen in versie 4.2l doorgevoerd:
+
+* De naamgeving van een aantal velden in de databasestructuur zijn aangepast om het uitwisselformat geschikt te maken voor gebruik met NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl. De aanpassing betreft de kolommen die een verwijzing bevatten naar de NEN5104. "NEN5104" is vervangen door "CLASSIFICATIE". Het veld "CLAS_NORMEN" bevat een beschrijving van de bij de classificatie aangehouden normen. Dit is tevens toegepast op de korrelverdelingen (groepcode KV_), de CRS-proeven (groepcode CRS_), de samendrukkingsproeven (groepcode SD_) en de DSS en triaxiaalproeven (groepcodes DSS_ resp. TXT_)
+
+
+Ten opzichte van versie 4.2h zijn de volgende wijzigingen in versie 4.2k doorgevoerd:
 
 * Helpdeskvraag #18 04 2230: er is geen match tussen velden uitwisselformat en proevenverzamelingentool. De proevenverzamelingentool geeft de juiste velden weer.
    oplossing: velden zijn aangepast in uitwisselformat zodat ze overeenkomen met proevenverzamelingentool.
@@ -32,6 +39,13 @@ De huidige versie 4.2 is inmiddels aangekomen bij subversie k. Ten opzichte van 
 
 # Wijzigingen proevenverzamelingentool
 
+De huidige versie van de proevenverzamelingentool is versie 4.2l. 
+
+Ten opzichte van de vorige versie (4.2k) zijn de volgende wijzigingen doorgevoerd in versie 4.2l:
+
+* De naamgeving van een aantal velden in de databasestructuur zijn aangepast om het uitwisselformat geschikt te maken voor gebruik met NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl. Zie de toelichting bij de wijzigingen in het uitwisselformat.
+
+
 Ten opzichte van versie 4.2h zijn de volgende wijzigingen doorgevoerd:
 
 * In een aantal gevallen bleek het mogelijk dat niet-unieke monsterid werden aangemaakt. Een unieke ID is nodig voor de functionaliteit. Dit is opgelost door het regelnummer toe te voegen aan het monsterid.
@@ -40,6 +54,12 @@ Ten opzichte van versie 4.2h zijn de volgende wijzigingen doorgevoerd:
 * De berekening van de karakteristieke waarde van de gedraineerde parameters is aangepast aan de methode in de schematiseringshandleiding macrostabiliteit.
 * De naamgeving van de database velden en beschrijving is consistent gemaakt met het uitwisselformat.
 * In versie 4.2k2 is een probleem opgelost waarbij de tool vastliep bij herberekening indien een punt als decimaalteken was ingesteld in Excel.
+
+# Aanwijzingen voor het beschrijven van de grond bij verschillende normen
+
+1. Bij gebruik NEN5104:1989 nl voor de beschrijving van de grond de codering gebruiken, niet geheel uitschrijven. Bijvoorbeeld: Ks2 of Vm of Ks3h1
+2. Bij gebruik conform NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl geen codering gebruiken maar geheel uitschrijven in hoofdletters (KEITJES,GRIND, ZAND, SILT, KLEI, VEEN etc.)
+3. Alle overige kenmerken van de beschrijving van de grond conform NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl in het veld bijmengingen opnemen.(bijvoorbeeld secundaire fractie en aanwezigheid van grind). 
 
 # Issues en vragen
 
