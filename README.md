@@ -24,7 +24,7 @@ De huidige versie 4.2 is inmiddels aangekomen bij subversie l.
 
 Ten opzichte van versie 4.2k zijn de volgende wijzigingen in versie 4.2l doorgevoerd:
 
-* De naamgeving van een aantal velden in de databasestructuur zijn aangepast om het uitwisselformat geschikt te maken voor gebruik met NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl. De aanpassing betreft de kolommen die een verwijzing bevatten naar de NEN5104. "NEN5104" is vervangen door "CLASSIFICATIE". Het veld "CLAS_NORMEN" bevat een beschrijving van de bij de classificatie aangehouden normen. Dit is tevens toegepast op de korrelverdelingen (groepcode KV_), de CRS-proeven (groepcode CRS_), de samendrukkingsproeven (groepcode SD_) en de DSS en triaxiaalproeven (groepcodes DSS_ resp. TXT_)
+* De naamgeving van een aantal velden in de databasestructuur zijn aangepast om het uitwisselformat geschikt te maken voor gebruik met NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl, naast de NEN5104:1989 nl.De aanpassing betreft de kolommen die een verwijzing bevatten naar de NEN5104. "_NEN5104" is vervangen door "_GRONDSOORT". "_NEN5104_BIJMENGING" is vervangen door "_OVERIGE_BESTANDDELEN". Dit is toegepast op de classificatie (groepcode CLAS), korrelverdelingen (groepcode KV), de CRS-proeven (groepcode CRS), de samendrukkingsproeven (groepcode SD) en de DSS en triaxiaalproeven (groepcodes DSS resp. TXT). Zie "Aanwijzingen voor het beschrijven van de grond bij verschillende normen".
 
 
 Ten opzichte van versie 4.2h zijn de volgende wijzigingen in versie 4.2k doorgevoerd:
@@ -57,9 +57,24 @@ Ten opzichte van versie 4.2h zijn de volgende wijzigingen doorgevoerd:
 
 # Aanwijzingen voor het beschrijven van de grond bij verschillende normen
 
+Het uitwisselformat is geschikt om zowel grondbeschrijvingen conform NEN5104:1989 nl als NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl te bevatten. Overeengekomen is dat kolom 47 (CLAS_NORMEN) een hoofdrol vervult in het uitwisselen van informatie. 
+Hiermee kan de hele STOWA sheet voorts onveranderd blijven t.o.v. versie 4.2K, zonder nieuwe kolommen of andere volgordes of wijzigingen, behalve dat enkele kolomtitels (louter tekstueel) aangepast zijn door verwijzingen naar NEN5104 te vervangen door een generieke naamgeving.
+
+De waardelijst voor kolom 47 (CLAS_NORMEN) is:
+
+- ‘NEN5104:1989 nl’
+- ‘NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl’
+
+Voor kolommen met "_GRONDSOORT" gelden de volgende aanwijzingen:
+
 1. Bij gebruik NEN5104:1989 nl voor de beschrijving van de grond de codering gebruiken, niet geheel uitschrijven. Bijvoorbeeld: Ks2 of Vm of Ks3h1
-2. Bij gebruik conform NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl geen codering gebruiken maar geheel uitschrijven in hoofdletters (KEITJES,GRIND, ZAND, SILT, KLEI, VEEN etc.)
-3. Alle overige kenmerken van de beschrijving van de grond conform NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl in het veld bijmengingen opnemen.(bijvoorbeeld secundaire fractie en aanwezigheid van grind). 
+2. Bij gebruik conform NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl de waardelijst 7.41 gebruiken van https://docs.geostandaarden.nl/bro/def-im-BHR-GT-20200325/
+
+Voor kolommen met "_OVERIGE_BESTANDDELEN" gelden de aanwijzingen:
+
+3. Bij gebruik NEN5104:1989 nl de uitgeschreven tekst gebruiken.
+4. Bij gebruik conform NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl de waardelijst 7.76 gebruiken van https://docs.geostandaarden.nl/bro/def-im-BHR-GT-20200325/
+
 
 # Issues en vragen
 
