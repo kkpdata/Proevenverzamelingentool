@@ -58,7 +58,7 @@ Ten opzichte van versie 4.2h zijn de volgende wijzigingen doorgevoerd:
 # Aanwijzingen voor het beschrijven van de grond bij verschillende normen
 
 Het uitwisselformat is geschikt om zowel grondbeschrijvingen conform NEN5104:1989 nl als NEN-EN-ISO 14688-1:2019+NEN 8990:2020 nl te bevatten. Overeengekomen is dat kolom 47 (CLAS_NORMEN) een hoofdrol vervult in het uitwisselen van informatie. 
-Hiermee kan de hele STOWA sheet voorts onveranderd blijven t.o.v. versie 4.2K, zonder nieuwe kolommen of andere volgordes of wijzigingen, behalve dat enkele kolomtitels (louter tekstueel) aangepast zijn door verwijzingen naar NEN5104 te vervangen door een generieke naamgeving.
+Hiermee kan het uitwisselformat onveranderd blijven t.o.v. versie 4.2K, zonder nieuwe kolommen of andere volgordes of wijzigingen, behalve dat enkele kolomtitels (louter tekstueel) aangepast zijn door verwijzingen naar NEN5104 te vervangen door een generieke naamgeving.
 
 De waardelijst voor kolom 47 (CLAS_NORMEN) is:
 
