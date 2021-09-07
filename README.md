@@ -3,7 +3,7 @@
 Door Hoogheemraadschap Hollands Noorderkwartier, Hoogheemraadschap Delfland en Waterschap Rivierenland is een proevenverzamelingentool (ook wel STOWA database genoemd) geïnitieerd en verder ontwikkeld.
 De proevenverzamelingentool bestaat uit een tool in Excel om proevenverzamelingen samen te stellen. De onderliggende data om een proevenverzameling samen te stellen is beschreven in een vaste structuur. Deze structuur is vastgelegd in een uitwisselformat.
 
-Deze proevenverzamelingentool en uitwisselformat versie 4.2k is nu beschikbaar. De geotechnische laboratoria kennen deze database en kunnen deze database vullen met resultaten van grond- en laboratoriumonderzoek. Op deze wijze ontstaat er een eerste uniformering op het gebied van data-uitwisseling en –opslag van proefresultaten.
+Deze proevenverzamelingentool en uitwisselformat versie 4.2l is nu beschikbaar. De geotechnische laboratoria kennen deze database en kunnen deze database vullen met resultaten van grond- en laboratoriumonderzoek. Op deze wijze ontstaat er een eerste uniformering op het gebied van data-uitwisseling en –opslag van proefresultaten.
 
 Met de gevulde proevenverzamelingentool is het mogelijk om proevenverzamelingen op te zetten en te analyseren. Op basis van een set proeven leidt het Excel sheet zowel gedraineerde als ongedraineerde schuifsterkte parameters af. Van deze parameters worden verwachtingswaarde, karakteristieke waarde en rekenwaarde bepaald. De bestanden worden "as is" beschikbaar gesteld. De verantwoordelijkheid voor het gebruik van deze tools ligt bij de gebruiker.
 
