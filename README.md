@@ -3,7 +3,7 @@
 Door Hoogheemraadschap Hollands Noorderkwartier, Hoogheemraadschap Delfland en Waterschap Rivierenland is een proevenverzamelingentool (ook wel STOWA database genoemd) geïnitieerd en verder ontwikkeld.
 De proevenverzamelingentool bestaat uit een tool in Excel om proevenverzamelingen samen te stellen. De onderliggende data om een proevenverzameling samen te stellen is beschreven in een vaste structuur. Deze structuur is vastgelegd in een uitwisselformat.
 
-Deze proevenverzamelingentool en uitwisselformat versie 4.2L is nu beschikbaar. De geotechnische laboratoria kennen deze database en kunnen deze database vullen met resultaten van grond- en laboratoriumonderzoek. Op deze wijze ontstaat er een eerste uniformering op het gebied van data-uitwisseling en –opslag van proefresultaten.
+Deze proevenverzamelingentool en uitwisselformat versie 4.2n is nu beschikbaar. De geotechnische laboratoria kennen deze database en kunnen deze database vullen met resultaten van grond- en laboratoriumonderzoek. Op deze wijze ontstaat er een eerste uniformering op het gebied van data-uitwisseling en –opslag van proefresultaten.
 
 Met de gevulde proevenverzamelingentool is het mogelijk om proevenverzamelingen op te zetten en te analyseren. Op basis van een set proeven leidt het Excel sheet zowel gedraineerde als ongedraineerde schuifsterkte parameters af. Van deze parameters worden verwachtingswaarde, karakteristieke waarde en rekenwaarde bepaald. De bestanden worden "as is" beschikbaar gesteld. De verantwoordelijkheid voor het gebruik van deze tools ligt bij de gebruiker.
 
@@ -13,14 +13,26 @@ De proevenverzamelingentool stond voorheen op de helpdesk water.
 
 De proevenverzamelingentool bestaat uit een verzameling bestanden. Naast deze toelichting bestaat de complete set uit de volgende bestanden:
 
-* Proevenverzamelingen_tool_v4.2l.xlsm
+* Proevenverzamelingen_tool_v4.2n.xlsm
 * Beschrijving van deze proevenverzamelingentool
 * Het uitwisselformat-database-proevenverzameling_versie_4_2l.xlsx
 * Toelichting bij Uitwisselformat-database-proevenverzameling_versie_4_2l_202105.pdf
 
 # Wijzigingen uitwisselformat ten opzichte van voorgaande versie
 
-De huidige versie 4.2 is inmiddels aangekomen bij subversie l. 
+De huidige versie 4.2 is inmiddels aangekomen bij subversie n. 
+
+Ten opzichte van versie 4.2l zijn de volgende wijzigingen in versie 4.2n doorgevoerd:
+
+* De ondersteuning voor het vaststellen van ongedraineerde schuifsterkteparameters is verbeterd door:
+   * Toevoeging afleiden Su-tabel
+   * Afleiden Shansepparameters, S, m en POP
+   * Toetsen Shansepparameters d.m.v. consistentiecheck aan Su-tabel 
+* De ondersteuning voor probabilistische berekeningen is verbeterd door:
+   * vaststellen van verwachtingswaarden en karakteristieke waarden voor alle sterkte parameters
+   * vaststellen van variatiecoëfficiënt bij gebruik van Su-tabel 
+* Het uitwisselformat is niet gewijzigd. Deze blijft op versie 4.2l
+
 
 Ten opzichte van versie 4.2k zijn de volgende wijzigingen in versie 4.2l doorgevoerd:
 
