@@ -13,14 +13,18 @@ De proevenverzamelingentool stond voorheen op de helpdesk water.
 
 De proevenverzamelingentool bestaat uit een verzameling bestanden. Naast deze toelichting bestaat de complete set uit de volgende bestanden:
 
-* Proevenverzamelingen_tool_v4.2n.xlsm
+* Proevenverzamelingen_tool_v4.2o.xlsm
 * Beschrijving van deze proevenverzamelingentool
 * Het uitwisselformat-database-proevenverzameling_versie_4_2l.xlsx
 * Toelichting bij Uitwisselformat-database-proevenverzameling_versie_4_2l_202105.pdf
 
 # Wijzigingen uitwisselformat ten opzichte van voorgaande versie
 
-De huidige versie 4.2 is inmiddels aangekomen bij subversie n. 
+De huidige versie 4.2 is inmiddels aangekomen bij subversie o. 
+
+Ten opzichte van versie 4.2n zijn de volgende wijzigingen in versie 4.2o doorgevoerd:
+
+* De suggesties voor de gemiddelde en karakteristieke S bij OCR =1 worden nu berekend op basis van het gekozen rekpercentage. Voorheen werd de suggestie gegeven bij een vast rekpercentage waardoor de suggestie niet correct was bij als er een ander rekpercentage gekozen werd.
 
 Ten opzichte van versie 4.2l zijn de volgende wijzigingen in versie 4.2n doorgevoerd:
 
